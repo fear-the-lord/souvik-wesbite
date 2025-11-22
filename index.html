@@ -742,7 +742,7 @@
         const formMessage = document.getElementById('form-message');
 
         contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
+            // e.preventDefault();
             formMessage.textContent = 'Thank you! Your message has been sent successfully. 🎉';
             formMessage.classList.remove('hidden');
             contactForm.reset();
